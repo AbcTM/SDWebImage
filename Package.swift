@@ -43,5 +43,6 @@ let package = Package(
             path: "SDWebImageMapKit",
             sources: ["MapKit"]
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
